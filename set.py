@@ -35,3 +35,17 @@ print("Size of the set:", len(set_demo))
 set_demo.clear()
 print("Set after clearing:", set_demo)
 print("Length of the set after clearing:", len(set_demo))
+
+# union of two sets
+set_a = {1, 2, 3}
+set_b = {3, 4, 5}
+set_union = set_a.union(set_b)
+print("Union of set_a and set_b:", set_union)
+
+# intersection of two sets
+set_intersection = set_a.intersection(set_b)
+print("Intersection of set_a and set_b:", set_intersection)
+
+# difference of two sets
+set_difference = set_a.difference(set_b)
+print("Difference of set_a and set_b:", set_difference)
