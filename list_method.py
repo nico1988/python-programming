@@ -49,3 +49,18 @@ print("Repeated list:", repeated_list)
 # membership
 is_five_in_list = 5 in origin_list
 print("Is 5 in the list?", is_five_in_list)
+
+# iteration
+for item in origin_list:
+    print("Iterating through item:", item)
+# list comprehension
+squared_list = [x**2 for x in origin_list]
+print("List of squared values:", squared_list)
+
+# month list
+months = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"]
+
+# loop through the list
+for month in months:
+    print("Month:", month)  
