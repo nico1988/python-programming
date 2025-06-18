@@ -8,3 +8,10 @@ a = dict(
 
 print("Initial dictionary:", a)
 
+b = {
+    "name": "Alice",
+    "age": 25,
+    "city": "Los Angeles"
+}
+
+print("Another dictionary:", b)

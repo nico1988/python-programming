@@ -1,0 +1,28 @@
+2025-06-18 23:44:19,525 - __main__ - INFO - Logging setup complete.
+2025-06-18 23:44:19,525 - __main__ - WARNING - This is a warning message.
+2025-06-18 23:44:19,526 - __main__ - ERROR - This is an error message.
+2025-06-18 23:44:19,526 - __main__ - CRITICAL - This is a critical message.
+2025-06-18 23:46:32,524 - __main__ - INFO - Logging setup complete.
+2025-06-18 23:46:32,525 - __main__ - WARNING - This is a warning message.
+2025-06-18 23:46:32,525 - __main__ - ERROR - This is an error message.
+2025-06-18 23:46:32,525 - __main__ - DEBUG - This is a debug message.
+2025-06-18 23:46:32,525 - __main__ - CRITICAL - This is a critical message.
+2025-06-19 00:38:02,944 - __main__ - INFO - Logging setup complete.
+2025-06-19 00:38:02,944 - __main__ - WARNING - This is a warning message.
+2025-06-19 00:38:02,944 - __main__ - ERROR - This is an error message.
+2025-06-19 00:38:02,944 - __main__ - DEBUG - This is a debug message.
+2025-06-19 00:38:02,944 - __main__ - CRITICAL - This is a critical message.
+2025-06-19 00:38:09,818 - __main__ - INFO - Logging setup complete.
+2025-06-19 00:38:09,818 - __main__ - WARNING - This is a warning message.
+2025-06-19 00:38:09,818 - __main__ - ERROR - This is an error message.
+2025-06-19 00:38:09,818 - __main__ - DEBUG - This is a debug message.
+2025-06-19 00:38:09,818 - __main__ - CRITICAL - This is a critical message.
+2025-06-19 00:38:18,535 - __main__ - ERROR - This is an error message.
+2025-06-19 00:38:18,535 - __main__ - CRITICAL - This is a critical message.
+2025-06-19 00:38:28,075 - __main__ - INFO - Logging setup complete.
+2025-06-19 00:38:28,075 - __main__ - WARNING - This is a warning message.
+2025-06-19 00:38:28,075 - __main__ - ERROR - This is an error message.
+2025-06-19 00:38:28,075 - __main__ - CRITICAL - This is a critical message.
+2025-06-19 00:38:47,532 - __main__ - WARNING - This is a warning message.
+2025-06-19 00:38:47,532 - __main__ - ERROR - This is an error message.
+2025-06-19 00:38:47,532 - __main__ - CRITICAL - This is a critical message.

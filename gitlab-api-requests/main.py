@@ -9,4 +9,3 @@ print(type(my_projects))
 # print just the names and urls
 for project in my_projects:
     print(f"Project Name: {project['name']}\nProject Url: {project['http_url_to_repo']}\n")
-
