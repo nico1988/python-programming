@@ -49,5 +49,18 @@ def main():
     logging.info(f"{x} raised to the power of {y}: {power(x, y)}")
     logging.info(f"Floor division of {x} by {y}: {floor_divide(x, y)}")
 
+def operator_compare_example():
+    """Example of using operator module for comparison."""
+    a = 10
+    b = 20
+    logging.info(f"Is {a} less than {b}? {operator.lt(a, b)}")
+    logging.info(f"Is {a} greater than {b}? {operator.gt(a, b)}")
+    logging.info(f"Is {a} equal to {b}? {operator.eq(a, b)}")
+    logging.info(f"Is {a} not equal to {b}? {operator.ne(a, b)}")
+    logging.info(f"Is {a} less than or equal to {b}? {operator.le(a, b)}")
+    logging.info(f"Is {a} greater than or equal to {b}? {operator.ge(a, b)}")
+
 if __name__ == "__main__":
     main()
+
+    operator_compare_example()
