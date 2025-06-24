@@ -23,3 +23,29 @@ def load_module(module_name, module_path):
     spec.loader.exec_module(module)
     
     return module
+
+
+# use of dir function
+content = dir()
+# importlib.util
+utils = dir(importlib.util)
+print("Current module content:", content)
+print("Importlib.util content:", utils)
+
+print("\n" + "="*50 + "\n")
+
+print("Global function:::", globals())
+
+print("\n" + "="*50 + "\n")
+
+print("Local function:::", locals())
+print("\n" + "="*50 + "\n")
+
+def example_function():
+    """
+    An example function to demonstrate local scope.
+    """
+    local_var = "I am a local variable"
+    print("Local scope:", locals())
+
+example_function()
