@@ -10,6 +10,8 @@ def hash_demo():
     
     # Log the hash
     logger.info("SHA-256 Hash: %s", sha256_hash)
+    logger.info("SHA-256 Digest: %s", hashlib.sha256(example_string.encode()).digest())
+    logger.info("SHA-256 Digest: %s", hashlib.sha256(exam ple_string.encode()).digest().hex())
 
     # md5 hash hexdigest
     logger.info("MD5 Hash: %s", hashlib.md5(example_string.encode()).hexdigest())
