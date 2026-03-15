@@ -13,3 +13,6 @@ class User:
 
     def get_user_info(self):
         print(f"User {self.name} currently works as a {self.current_job_title}. You can contact them at {self.email}")
+
+    def __str__(self):
+        return f'This is a dunder method {self.name} ({self.email}) {self.current_job_title}'
